@@ -2,7 +2,13 @@
 DAT makes everything DAT
 (not a obfuscator)
 
-INPUT
+USAGE DAT
+----
+```
+dat.rb input_dat_path.rb output_dat_path.rb
+```
+
+INPUT DAT
 ----
 ```rb
 class Foo
@@ -24,7 +30,7 @@ Foo.new.bar
 Bar.woo
 ```
 
-OUTPUT
+OUTPUT DAT
 ----
 ```rb
 class Dat
